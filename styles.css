@@ -1,0 +1,44 @@
+
+
+html,
+body { width:100%}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    color: #0d0d0d;
+}
+
+.navBar {
+width: 100%;
+height: fit-content;
+margin: 0;
+padding: 0;
+margin-bottom: 1rem;
+font-size:1.25rem;
+background-color: rgb(164, 219, 227);
+color: rgb(40, 39, 45);
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navList {
+    width: 100%;
+    height: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size:1.25rem;
+    text-decoration:none;
+}
+
+.content header {
+    font-size: 3rem;
+}
+.content{
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
