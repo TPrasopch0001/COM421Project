@@ -21,8 +21,18 @@ background-color: rgb(164, 219, 227);
 color: rgb(40, 39, 45);
 padding: 14px 16px;
 text-decoration: none;
+list-style-type: none;
 }
 
+.navBar li{
+    float:left;
+}
+
+.navBar li a {
+    display:block;
+    text-align: center;
+    padding: 12px 10px
+}
 .navList {
     width: 100%;
     height: fit-content;
