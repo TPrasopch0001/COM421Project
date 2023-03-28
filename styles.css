@@ -1,27 +1,28 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
 html,
 body { width:100%}
 
 body {
     margin: 0;
-    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-family: "Source Sans Pro",Arial,Helvetica, sans-serif;
     background: rgb(255, 255, 255);
     color: #0d0d0d;
 }
 
 .navBar {
-width: 100%;
-height: fit-content;
-margin: 0;
-padding: 0;
-margin-bottom: 1rem;
-font-size:1.25rem;
-background-color: rgb(164, 219, 227);
-color: rgb(40, 39, 45);
-padding: 14px 16px;
-text-decoration: none;
-list-style-type: none;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    font-size:1.25rem;
+    background-color: rgb(164, 219, 227);
+    color: rgb(40, 39, 45);
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .navBar li{
@@ -31,7 +32,8 @@ list-style-type: none;
 .navBar li a {
     display:block;
     text-align: center;
-    padding: 12px 10px
+    padding: 12px 10px;
+    text-decoration:none;
 }
 .navList {
     width: 100%;
@@ -50,5 +52,18 @@ list-style-type: none;
     font-size: 1.25rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin: 1.2rem;
 }
 
+.link {
+    font-size:1.5rem;
+    padding:14px 16px;
+}
+
+#libServ {
+    font-size:1rem;
+}
+#libServ img{
+    height:auto;
+    width:35rem;
+}
