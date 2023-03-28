@@ -12,17 +12,20 @@ body {
 }
 
 .navBar {
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1rem;
-    font-size:1.25rem;
-    background-color: rgb(164, 219, 227);
-    color: rgb(40, 39, 45);
-    padding: 14px 16px;
-    text-decoration: none;
-    list-style-type: none;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  font-size:1.25rem;
+}
+.navBar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(164, 219, 227);
+  color: rgb(40, 39, 45);
+  overflow: hidden;
 }
 
 .navBar li{
@@ -53,6 +56,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 1.2rem;
+    float:none;
 }
 
 .link {
@@ -66,4 +70,36 @@ body {
 #libServ img{
     height:auto;
     width:35rem;
+}
+
+#TLeqn {
+    border: 2px;
+    background-color: lightgray;
+    padding: 1rem;
+    overflow:hidden;
+}
+
+.TLlist li{
+    padding:5px;
+}
+.TLlist .ignore{
+    list-style-type: none;
+}
+
+aside {
+    float:right;
+    background-color: rgb(164, 219, 227);
+    width: 30%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+aside > h3{
+    margin:0.6rem;
+}
+aside > p {
+    margin:0.5rem;
 }
