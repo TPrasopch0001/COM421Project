@@ -94,6 +94,7 @@ overflow: hidden;
     float:none;
 }
 
+
 .link {
     font-size:1.5rem;
     padding:14px 16px;
@@ -101,10 +102,13 @@ overflow: hidden;
 
 .figImg {
     font-size:1rem;
+    
 }
 .figImg img{
     height:auto;
     width:35rem;
+    border:1px;
+    border-style:solid;
 }
 
 #TLeqn {
