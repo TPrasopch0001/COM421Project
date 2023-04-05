@@ -7,12 +7,12 @@ body { width:100%}
 body {
     margin: 0;
     font-family: "Source Sans Pro",Arial,Helvetica, sans-serif;
-    background: rgb(255, 255, 255);
+    background: rgb(235, 235, 235);
     color: #0d0d0d;
 }
 
 .navBar {
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   margin: 0;
   padding: 0;
@@ -59,27 +59,29 @@ body {
     margin: 0;
     padding: 0;
     margin-bottom: 1rem;
+    text-align: center;
+    display:block;
   }
+
 .navIcons ul {
-margin: 0;
-padding: 0;
-list-style-type: none;
-overflow: hidden;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 .navIcons li{
-    float:left;
+    margin: 0 auto;
+    display:inline-flex;
 }
 
-
-.navIcons img{
-    margin:auto;
-    display:block;
-    padding:1rem;
-    padding-left:7.5rem;
-    padding-right:7.5rem;
+.navIcons div{
     height:auto;
     width:10rem;
+}
+.navIcons img{
+    height:auto;
+    width:10rem;
+    text-align:center;
 }
 
 .content header {
@@ -116,21 +118,22 @@ overflow: hidden;
     background-color: lightgray;
     padding: 1rem;
     overflow:hidden;
+    text-align:center;
 }
 
 .TLlist li{
     padding:5px;
 }
-.TLlist .title{
+.title{
     font-weight:bold;
 }
-.TLlist .ignore{
+.ignore{
     list-style-type: none;
 }
 
 aside {
     float:right;
-    background-color: rgb(164, 219, 227);
+    background-color: rgb(160, 226, 236);
     width: 30%;
     padding-left: 0.5rem;
     margin-left: 0.5rem;
@@ -142,7 +145,7 @@ aside {
 aside > h3{
     margin:0.6rem;
 }
-aside > p {
+aside > div {
     margin:0.5rem;
 }
 
@@ -150,3 +153,5 @@ aside > p {
     height:auto;
     width: 40rem;
 }
+
+
